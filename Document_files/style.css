@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.05px solid rgba(207, 201, 201, 0.737);
+    height: auto;
+    margin-top: 36px;
+    width: 370px;
+    background-color: white;
+
+}
+.image{
+    display: block;
+    margin: auto ;
+    margin-top: 36px; 
+    margin-bottom: 36px;
+}
+
+input{
+    width: 270px;
+    height: 32px;
+    border: none;
+    margin: 2px auto;
+    background-color: rgb(250, 250, 250);
+    border: 0.1px solid rgb(184, 181, 181);
+    border-radius: 2.5px;
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    font-size: 12px;
+}
+button{
+    width: 270px;
+    height: 28px;
+    margin: auto;
+    background-color: rgb(27 155 210);
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+/* btn:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+   /* box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+
+button:disabled{
+   
+    background-color: rgb(111, 180, 209 , 0.6);   
+   
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.05px solid rgba(207, 201, 201, 0.737);
+    height: 63px;
+    width: 400px;
+    margin-top: 10px;
+    width: 370px;
+    background-color: white;
+}
+.signup a{
+    text-decoration: none;
+    color: rgb(104, 165, 215);
+    font-weight: bold;
+}
+.par{
+    margin-top: 25px;
+}
+.form p{
+    text-align: center;
+    font-size: 14px;
+}
+.form a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 22px;
+    margin-top: 72px;
+    font-size: 14px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 12px;
+
+
+}
+.link{
+    word-spacing: 6px;
+    margin-bottom: 20px;
+    margin-top: 107px;
+}
+

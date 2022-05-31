@@ -1,0 +1,17 @@
+console.log("axd")
+
+
+// let text1 = document.getElementsByTagName("input")[0];
+// let text2 = document.getElementsByTagName("input")[1];
+
+// x = text1.value;
+// y = text2.value;
+
+
+// if (x || y == "") {
+//     document.getElementsByClassName("btn")[0].disabled = true;
+// }
+// else
+//     document.getElementsByClassName("btn")[0].disabled = false;
+
+document.getElementsByTagName('button')[0].disabled = false
